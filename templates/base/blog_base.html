@@ -48,13 +48,13 @@
                         <a class="nav-link" href="{% host_url 'index' host 'blog' %}">HOME</a>
                     </li>
                     <li class="nav-item pe-3">
-                        <a class="nav-link" href="{% host_url 'category' host 'blog' %}articles">ARTICLES</a>
+                        <a class="nav-link" href="{% host_url 'cybersecurity-' host 'blog' %}articles">ARTICLES</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{% host_url 'category' host 'blog' %}case_studies">CASE STUDIES</a>
+                        <a class="nav-link" href="{% host_url 'cybersecurity-' host 'blog' %}case-studies">CASE STUDIES</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{% host_url 'category' host 'blog' %}podcast">PODCAST</a>
+                        <a class="nav-link" href="{% host_url 'cybersecurity-' host 'blog' %}podcast">PODCAST</a>
                     </li>
 
                     {% if user.is_authenticated %}
